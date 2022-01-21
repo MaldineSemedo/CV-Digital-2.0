@@ -2,8 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    
+  return  (
+     
       <div>
 	<div class="container" id="container">
 	<div class="form-container sign-up-container">
@@ -52,9 +52,19 @@ function App() {
 	</div>
 </div>
       </div>
-
-
   );
 }
 
 export default App;
+
+const signUpButton = document.getElementById('signUp');
+const signInButton = document.getElementById('signIn');
+const container = document.getElementById('container');
+
+signUpButton.addEventListener('click', () => {
+	container.classList.add("right-panel-active");
+});
+
+signInButton.addEventListener('click', () => {
+	container.classList.remove("right-panel-active");
+});

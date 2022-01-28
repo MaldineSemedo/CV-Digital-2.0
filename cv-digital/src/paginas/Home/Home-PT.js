@@ -1,15 +1,19 @@
-import React from "react";
-//import './Home.css';
-import Routes from "../../routes";
+import React from 'react';
+import "./Home.css";
 
-function Home_PT() {
-  return  (
-
-  <div>
-      <Routes />
-  </div>
-
+const Home_PT = () => {
+  return (
+    <div
+      style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '90vh'
+      }}
+    >
+      <h1>Home</h1>
+    </div>
   );
-}
+};
 
 export default Home_PT;

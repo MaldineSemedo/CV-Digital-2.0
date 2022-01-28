@@ -1,11 +1,10 @@
 import logo from './logo.svg';
 import './Login.css';
 
-
 function Login() {
   return  (
      
-      <div>
+      <>
 <div class="area" >
             <ul class="circles">
                     <li></li>
@@ -27,9 +26,9 @@ function Login() {
 		<form action="#">
 			<h1>Criar uma conta</h1>
 			<div class="social-container">
-				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+				<a href="./paginas/index.html" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="./paginas/index.html" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="./paginas/index.html" class="social"><i class="fab fa-linkedin-in"></i></a>
 			</div>
 			<span>ou use seu e-mail para cadastro</span>
 			<input type="text" placeholder="Nome" />
@@ -42,9 +41,9 @@ function Login() {
 		<form action="#">
 			<h1>Entrar</h1>
 			<div class="social-container">
-				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+				<a href="./paginas/index.html" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="./paginas/index.html" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="./paginas/index.html" class="social"><i class="fab fa-linkedin-in"></i></a>
 			</div>
 			<span>ou use sua conta</span>
 			<input type="email" placeholder="E-mail" />
@@ -70,7 +69,7 @@ function Login() {
 </div>
 
 
-      </div>
+      </>
   );
 }
 
